@@ -4,8 +4,9 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #2e3c42;
-    color: #fff;
+    background-color: #2995c3;
+    background-image: linear-gradient(to right, rgba(209, 201, 201, 0), rgba(255,0,0,1));
+    color: rgb(248, 213, 213);
 }
 
 header {
@@ -18,8 +19,8 @@ form {
     width: 500px; 
     text-align: center; 
     margin-top: 30px; 
-    border: 2px solid;
-    border-radius: 15px;
+    border-style: dotted;
+    border-width: thick;
     padding-top: 15px;
 }
 
@@ -32,7 +33,10 @@ body > main > article {
 
 footer {
     color: #fff;
-    background-color: #414446;
+    background-color: #2995c3;
+    background-image: linear-gradient(to right, rgba(209, 201, 201, 0), rgba(255,0,0,1));
+    border: 2px solid;
+    border-radius: 15px;
     height: 60px;
     text-align: center;
     position: fixed;
@@ -109,10 +113,12 @@ footer > span {
     right: 0;
 
 }
-
-#send-button{
-    background-color: #2e3c42;
-    border: none;
+ /*MUDANDO BOTAO ENVIAR */
+send-button{ 
+    background-color: #8cc9e4;
+    
+    border-style: solid;
+    border-width: 5px;
     color: #ffffff;
     padding: 15px 32px;
     text-align: center;
@@ -131,9 +137,9 @@ footer > span {
     color: #2e3c42;
     font-weight: 700;
 }
-
+ /* ESPAÇOS DE INPUT */
 input {
-    background-color: #414446;
+    background-color: #575758;
     border: #ffffff;
     color: #ffffff;
     font-size: 16px;
