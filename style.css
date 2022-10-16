@@ -1,0 +1,143 @@
+#show-values {
+    display: none;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #2e3c42;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+}
+
+form {
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px; 
+    text-align: center; 
+    margin-top: 30px; 
+    border: 2px solid;
+    border-radius: 15px;
+    padding-top: 15px;
+}
+
+main {
+    height: 450px;
+}
+body > main > article {
+    text-align: center;
+} 
+
+footer {
+    color: #fff;
+    background-color: #414446;
+    height: 60px;
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    left:0;
+    right: 0;
+
+    
+}
+
+footer > span {
+    position: relative;
+    top: 20px;
+    font-weight: 700;
+}
+
+.success-record {
+    padding: 5px;
+    text-align: center;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    color:#79bb79;
+    background-color: #dcecdc;
+} 
+
+.success-record > div{
+    display: inline-block;
+}
+.success-record > div > svg{
+    position: relative; 
+    top: 2px;
+    left: 2px;
+    cursor: pointer;
+}
+
+#success-record-msg {
+    display: none;
+}
+
+.error-record {
+    padding: 5px;
+    text-align: center;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    color:#c96565;
+    background-color: #efd9ce;
+} 
+
+.error-record > div{
+    display: inline-block;
+}
+
+.error-record > div > svg{
+    position: relative; 
+    top: 2px;
+    left: 2px;
+    cursor: pointer;
+}
+
+#error-record-msg {
+    display: none;
+}
+
+#carLogo{
+    display: flex;    
+    justify-content: center;   
+    position: fixed;
+    bottom:0;
+    left:0;
+    right: 0;
+
+}
+
+#send-button{
+    background-color: #2e3c42;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;    
+    border-radius: 12px;
+    padding: 10px 24px;
+    font-size: 14px;
+    transition-duration: 0.1s;
+    font-weight: 700;
+}
+
+#send-button:hover {
+    background-color: #ffffff; 
+    color: #2e3c42;
+    font-weight: 700;
+}
+
+input {
+    background-color: #414446;
+    border: #ffffff;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 4px;
+    text-align: center;
+}
