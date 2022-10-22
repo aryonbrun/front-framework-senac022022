@@ -4,19 +4,24 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("a-red-mini-coupe-driving-on-the-highway-with-high-speed.jpg");
+    background-size: 1320px;
+    width: 900px;
+    /* height: 70px; */
+    /* border: 10px solid; */
     background-color: #2995c3;
-    background-image: linear-gradient(to right, rgba(209, 201, 201, 0), rgba(255,0,0,1));
-    color: rgb(248, 213, 213);
+    /* background-image: linear-gradient(to right, rgba(209, 201, 201, 0), rgba(255,0,0,1)); */
+    color: rgb(255, 255, 255);
 }
 
 header {
-    text-align: center;
+    text-align:  center;
 }
 
 form {
     margin-left: auto; 
     margin-right: auto; 
-    width: 500px; 
+    width: 300px; 
     text-align: center; 
     margin-top: 30px; 
     border-style: dotted;
@@ -33,7 +38,7 @@ body > main > article {
 
 footer {
     color: #fff;
-    background-color: #2995c3;
+    background-color: #ffffff;
     background-image: linear-gradient(to right, rgba(209, 201, 201, 0), rgba(255,0,0,1));
     border: 2px solid;
     border-radius: 15px;
