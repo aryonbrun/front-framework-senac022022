@@ -5,7 +5,8 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url("a-red-mini-coupe-driving-on-the-highway-with-high-speed.jpg");
-    background-size: 1320px;
+    background-position: center;
+    background-size: 100% auto;
     width: 900px;
     /* height: 70px; */
     /* border: 10px solid; */
@@ -16,21 +17,22 @@ body {
 
 header {
     text-align:  center;
+    margin-top: 359px;
 }
 
 form {
     margin-left: auto; 
     margin-right: auto; 
-    width: 300px; 
+    width: 350px; 
     text-align: center; 
-    margin-top: 30px; 
+    margin-top: 60px; 
     border-style: dotted;
     border-width: thick;
     padding-top: 15px;
 }
 
 main {
-    height: 450px;
+    height: 50px;
 }
 body > main > article {
     text-align: center;
